@@ -1,0 +1,16 @@
+export enum NCity {
+  TOSHKENT_SHAXAR = "Toshkent shahri",
+  TOSHKENT_VILOYAT = "Toshkent viloyati",
+  BUKHARA = "Buxoro",
+  SAMARKAND = "Samarqand",
+  QORAQALPOGISTON = "QORAQALPOGISTON",
+  JIZZAKH = "Jizzax",
+  FARGONA = "Fargona",
+  NAMANGAN = "Namangan",
+  NAVOI = "Navoiy",
+  QASHQADARYO = "Qashqadaryo",
+  SIRDARYO = "Sirdaryo",
+  SURXONDARYO = "Surxondaryo",
+  ANDIJON = "Andijon",
+  XORAZM = "Xorazm",
+}

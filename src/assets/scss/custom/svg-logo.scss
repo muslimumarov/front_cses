@@ -1,0 +1,31 @@
+.chaoticFadeOut svg circle {
+  opacity: 1;
+  animation: chaoticFadeOut 700ms ease-out 1 forwards;
+}
+
+.chaoticFadeIn svg circle {
+  opacity: 0;
+  animation: chaoticFadeIn 2s ease-in 1 forwards;
+}
+
+@keyframes chaoticFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes chaoticFadeOut {
+  0% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+}
